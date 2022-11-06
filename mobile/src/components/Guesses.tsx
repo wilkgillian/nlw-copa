@@ -5,5 +5,10 @@ interface Props {
 }
 
 export function Guesses({ poolId }: Props) {
-  return <Box></Box>;
+
+  return (
+    <Box>
+
+    </Box>
+  );
 }

@@ -13,6 +13,7 @@ import React from 'react';
 
 import { AuthContextProvider } from './src/contexts/AuthContext';
 import New from './src/screens/New';
+import Find from './src/screens/Find';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -28,7 +29,8 @@ export default function App() {
           backgroundColor="transparent"
           translucent
         />
-        <New />
+        <Find />
+        {/* <New /> */}
         {/* {!fontsLoaded ? <Loading /> : <Signin />} */}
       </AuthContextProvider>
     </NativeBaseProvider>
